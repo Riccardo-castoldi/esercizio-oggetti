@@ -1,0 +1,21 @@
+button{
+    border: 2px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px;
+    background-color: rgba(0, 204, 109, 0.856);
+}   
+.paragrafo{
+    font-size: 20px;
+    color: rgb(49, 183, 245);
+    font-weight: bold;
+}
+a {
+    border: 2px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px;
+    background-color: rgba(0, 204, 109, 0.856);
+    text-decoration: none;
+    color: black;
+}
