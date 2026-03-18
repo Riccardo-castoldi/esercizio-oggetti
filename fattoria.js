@@ -37,9 +37,13 @@ function animale1() {
 }
 function animale2() {
     paragrafo.innerHTML = "Il " + fattoria[1].specie + " è di razza " + fattoria[1].razza + ", ha " + fattoria[1].zampe + " zampe e si nutre principalmente di " + fattoria[1].dieta.cibopreferito + ", consumando circa " + fattoria[1].dieta.qtd;
+    var img = document.getElementById("fotocane");
+    img.style.display = "block";
 }
 function animale3() {
     paragrafo.innerHTML = "La " + fattoria[2].specie + " è di razza " + fattoria[2].razza + ", ha " + fattoria[2].zampe + " zampe e si nutre principalmente di " + fattoria[2].dieta.cibopreferito + ", consumando circa " + fattoria[2].dieta.qtd;
+    var img = document.getElementById("fotoGallina");
+    img.style.display = "block";
 }
 if (btn1) {
     btn1.onclick = animale1;
